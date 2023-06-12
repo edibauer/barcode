@@ -6,7 +6,7 @@ const fs = require('fs')
 const canvas = createCanvas(300,300, 'jpeg')
 
 const codes = async () => {
-    let res = await fetch('https://sheetdb.io/api/v1/c9ou241vtwg1w')
+    let res = await fetch('https://sheetdb.io/api/v1/c9ou241vtwg1wa')
     let data = await res.json()
     // console.log(typeof Number(data[0].Number))
     data.forEach(code => {
